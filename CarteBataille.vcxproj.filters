@@ -1,0 +1,229 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Fichiers sources">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;c++;cppm;ixx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Fichiers d%27en-tête">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;h++;hm;inl;inc;ipp;xsd</Extensions>
+    </Filter>
+    <Filter Include="Fichiers de ressources">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="Fichiers de ressources\ressources">
+      <UniqueIdentifier>{803d1031-89c1-4753-8000-d6ce63dceed2}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="NewFilter1">
+      <UniqueIdentifier>{7d9470fe-65f6-4da2-96d8-90b36c914ef6}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Fichiers de ressources\ressources\fonts">
+      <UniqueIdentifier>{8eb41272-8a3d-421a-a1ab-5462697ecd09}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Fichiers de ressources\ressources\cards">
+      <UniqueIdentifier>{e149c9a1-fa24-4dbe-b76d-0f51dd4b51ef}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="Source.cpp">
+      <Filter>Fichiers sources</Filter>
+    </ClCompile>
+    <ClCompile Include="Carte.cpp">
+      <Filter>Fichiers sources</Filter>
+    </ClCompile>
+    <ClCompile Include="Joueur.cpp">
+      <Filter>Fichiers sources</Filter>
+    </ClCompile>
+    <ClCompile Include="Jeu.cpp">
+      <Filter>Fichiers sources</Filter>
+    </ClCompile>
+    <ClCompile Include="FenetreJeu.cpp">
+      <Filter>Fichiers sources</Filter>
+    </ClCompile>
+    <ClCompile Include="main-graph.cpp">
+      <Filter>Fichiers sources</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Carte.h">
+      <Filter>Fichiers d%27en-tête</Filter>
+    </ClInclude>
+    <ClInclude Include="Joueur.h">
+      <Filter>Fichiers d%27en-tête</Filter>
+    </ClInclude>
+    <ClInclude Include="Jeu.h">
+      <Filter>Fichiers d%27en-tête</Filter>
+    </ClInclude>
+    <ClInclude Include="FenetreJeu.h">
+      <Filter>Fichiers d%27en-tête</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <Image Include="..\Bataille\assets\cards\ace_of_spades.png">
+      <Filter>Fichiers de ressources\ressources\cards</Filter>
+    </Image>
+    <Image Include="..\Bataille\assets\cards\card_back.png">
+      <Filter>Fichiers de ressources\ressources\cards</Filter>
+    </Image>
+    <Image Include="..\Bataille\assets\cards\jack_of_clubs.png">
+      <Filter>Fichiers de ressources\ressources\cards</Filter>
+    </Image>
+    <Image Include="..\Bataille\assets\cards\jack_of_diamonds.png">
+      <Filter>Fichiers de ressources\ressources\cards</Filter>
+    </Image>
+    <Image Include="..\Bataille\assets\cards\jack_of_hearts.png">
+      <Filter>Fichiers de ressources\ressources\cards</Filter>
+    </Image>
+    <Image Include="..\Bataille\assets\cards\jack_of_spades.png">
+      <Filter>Fichiers de ressources\ressources\cards</Filter>
+    </Image>
+    <Image Include="..\Bataille\assets\cards\king_of_clubs.png">
+      <Filter>Fichiers de ressources\ressources\cards</Filter>
+    </Image>
+    <Image Include="..\Bataille\assets\cards\king_of_diamonds.png">
+      <Filter>Fichiers de ressources\ressources\cards</Filter>
+    </Image>
+    <Image Include="..\Bataille\assets\cards\king_of_hearts.png">
+      <Filter>Fichiers de ressources\ressources\cards</Filter>
+    </Image>
+    <Image Include="..\Bataille\assets\cards\king_of_spades.png">
+      <Filter>Fichiers de ressources\ressources\cards</Filter>
+    </Image>
+    <Image Include="..\Bataille\assets\cards\queen_of_clubs.png">
+      <Filter>Fichiers de ressources\ressources\cards</Filter>
+    </Image>
+    <Image Include="..\Bataille\assets\cards\queen_of_diamonds.png">
+      <Filter>Fichiers de ressources\ressources\cards</Filter>
+    </Image>
+    <Image Include="..\Bataille\assets\cards\queen_of_hearts.png">
+      <Filter>Fichiers de ressources\ressources\cards</Filter>
+    </Image>
+    <Image Include="..\Bataille\assets\cards\queen_of_spades.png">
+      <Filter>Fichiers de ressources\ressources\cards</Filter>
+    </Image>
+    <Image Include="..\Bataille\assets\cards\2_of_clubs.png">
+      <Filter>Fichiers de ressources\ressources\cards</Filter>
+    </Image>
+    <Image Include="..\Bataille\assets\cards\2_of_diamonds.png">
+      <Filter>Fichiers de ressources\ressources\cards</Filter>
+    </Image>
+    <Image Include="..\Bataille\assets\cards\2_of_hearts.png">
+      <Filter>Fichiers de ressources\ressources\cards</Filter>
+    </Image>
+    <Image Include="..\Bataille\assets\cards\2_of_spades.png">
+      <Filter>Fichiers de ressources\ressources\cards</Filter>
+    </Image>
+    <Image Include="..\Bataille\assets\cards\3_of_clubs.png">
+      <Filter>Fichiers de ressources\ressources\cards</Filter>
+    </Image>
+    <Image Include="..\Bataille\assets\cards\3_of_diamonds.png">
+      <Filter>Fichiers de ressources\ressources\cards</Filter>
+    </Image>
+    <Image Include="..\Bataille\assets\cards\3_of_hearts.png">
+      <Filter>Fichiers de ressources\ressources\cards</Filter>
+    </Image>
+    <Image Include="..\Bataille\assets\cards\3_of_spades.png">
+      <Filter>Fichiers de ressources\ressources\cards</Filter>
+    </Image>
+    <Image Include="..\Bataille\assets\cards\4_of_clubs.png">
+      <Filter>Fichiers de ressources\ressources\cards</Filter>
+    </Image>
+    <Image Include="..\Bataille\assets\cards\4_of_diamonds.png">
+      <Filter>Fichiers de ressources\ressources\cards</Filter>
+    </Image>
+    <Image Include="..\Bataille\assets\cards\4_of_hearts.png">
+      <Filter>Fichiers de ressources\ressources\cards</Filter>
+    </Image>
+    <Image Include="..\Bataille\assets\cards\4_of_spades.png">
+      <Filter>Fichiers de ressources\ressources\cards</Filter>
+    </Image>
+    <Image Include="..\Bataille\assets\cards\5_of_clubs.png">
+      <Filter>Fichiers de ressources\ressources\cards</Filter>
+    </Image>
+    <Image Include="..\Bataille\assets\cards\5_of_diamonds.png">
+      <Filter>Fichiers de ressources\ressources\cards</Filter>
+    </Image>
+    <Image Include="..\Bataille\assets\cards\5_of_hearts.png">
+      <Filter>Fichiers de ressources\ressources\cards</Filter>
+    </Image>
+    <Image Include="..\Bataille\assets\cards\5_of_spades.png">
+      <Filter>Fichiers de ressources\ressources\cards</Filter>
+    </Image>
+    <Image Include="..\Bataille\assets\cards\6_of_clubs.png">
+      <Filter>Fichiers de ressources\ressources\cards</Filter>
+    </Image>
+    <Image Include="..\Bataille\assets\cards\6_of_diamonds.png">
+      <Filter>Fichiers de ressources\ressources\cards</Filter>
+    </Image>
+    <Image Include="..\Bataille\assets\cards\6_of_hearts.png">
+      <Filter>Fichiers de ressources\ressources\cards</Filter>
+    </Image>
+    <Image Include="..\Bataille\assets\cards\6_of_spades.png">
+      <Filter>Fichiers de ressources\ressources\cards</Filter>
+    </Image>
+    <Image Include="..\Bataille\assets\cards\7_of_clubs.png">
+      <Filter>Fichiers de ressources\ressources\cards</Filter>
+    </Image>
+    <Image Include="..\Bataille\assets\cards\7_of_diamonds.png">
+      <Filter>Fichiers de ressources\ressources\cards</Filter>
+    </Image>
+    <Image Include="..\Bataille\assets\cards\7_of_hearts.png">
+      <Filter>Fichiers de ressources\ressources\cards</Filter>
+    </Image>
+    <Image Include="..\Bataille\assets\cards\7_of_spades.png">
+      <Filter>Fichiers de ressources\ressources\cards</Filter>
+    </Image>
+    <Image Include="..\Bataille\assets\cards\8_of_clubs.png">
+      <Filter>Fichiers de ressources\ressources\cards</Filter>
+    </Image>
+    <Image Include="..\Bataille\assets\cards\8_of_diamonds.png">
+      <Filter>Fichiers de ressources\ressources\cards</Filter>
+    </Image>
+    <Image Include="..\Bataille\assets\cards\8_of_hearts.png">
+      <Filter>Fichiers de ressources\ressources\cards</Filter>
+    </Image>
+    <Image Include="..\Bataille\assets\cards\8_of_spades.png">
+      <Filter>Fichiers de ressources\ressources\cards</Filter>
+    </Image>
+    <Image Include="..\Bataille\assets\cards\9_of_clubs.png">
+      <Filter>Fichiers de ressources\ressources\cards</Filter>
+    </Image>
+    <Image Include="..\Bataille\assets\cards\9_of_diamonds.png">
+      <Filter>Fichiers de ressources\ressources\cards</Filter>
+    </Image>
+    <Image Include="..\Bataille\assets\cards\9_of_hearts.png">
+      <Filter>Fichiers de ressources\ressources\cards</Filter>
+    </Image>
+    <Image Include="..\Bataille\assets\cards\9_of_spades.png">
+      <Filter>Fichiers de ressources\ressources\cards</Filter>
+    </Image>
+    <Image Include="..\Bataille\assets\cards\10_of_clubs.png">
+      <Filter>Fichiers de ressources\ressources\cards</Filter>
+    </Image>
+    <Image Include="..\Bataille\assets\cards\10_of_diamonds.png">
+      <Filter>Fichiers de ressources\ressources\cards</Filter>
+    </Image>
+    <Image Include="..\Bataille\assets\cards\10_of_hearts.png">
+      <Filter>Fichiers de ressources\ressources\cards</Filter>
+    </Image>
+    <Image Include="..\Bataille\assets\cards\10_of_spades.png">
+      <Filter>Fichiers de ressources\ressources\cards</Filter>
+    </Image>
+    <Image Include="..\Bataille\assets\cards\ace_of_clubs.png">
+      <Filter>Fichiers de ressources\ressources\cards</Filter>
+    </Image>
+    <Image Include="..\Bataille\assets\cards\ace_of_diamonds.png">
+      <Filter>Fichiers de ressources\ressources\cards</Filter>
+    </Image>
+    <Image Include="..\Bataille\assets\cards\ace_of_hearts.png">
+      <Filter>Fichiers de ressources\ressources\cards</Filter>
+    </Image>
+  </ItemGroup>
+  <ItemGroup>
+    <Font Include="..\Bataille\assets\fonts\arial.ttf">
+      <Filter>Fichiers de ressources\ressources\fonts</Filter>
+    </Font>
+  </ItemGroup>
+</Project>

@@ -1,0 +1,14 @@
+﻿  FenetreJeu.cpp
+C:\Users\user\Desktop\CarteBataille\FenetreJeu.cpp(87,53): warning C4244: 'argument' : conversion de 'int' en 'float', perte possible de données
+C:\Users\user\Desktop\CarteBataille\FenetreJeu.cpp(89,59): warning C4244: 'argument' : conversion de 'int' en 'float', perte possible de données
+C:\Users\user\Desktop\CarteBataille\FenetreJeu.cpp(89,45): warning C4244: 'argument' : conversion de 'int' en 'float', perte possible de données
+  Jeu.cpp
+  Joueur.cpp
+  main-graph.cpp
+  Source.cpp
+  Carte.cpp
+  Génération de code en cours
+  Previous IPDB not found, fall back to full compilation.
+  All 401 functions were compiled because no usable IPDB/IOBJ from previous compilation was found.
+  Fin de la génération du code
+  CarteBataille.vcxproj -> C:\Users\user\Desktop\CarteBataille\x64\Release\CarteBataille.exe
