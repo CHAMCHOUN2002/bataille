@@ -1,0 +1,11 @@
+# Fichier .gitignore
+.vs/
+x64/
+*.obj
+*.pdb
+*.ipch
+*.log
+*.tlog
+*.db
+*.suo
+*.exe
