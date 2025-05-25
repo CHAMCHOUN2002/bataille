@@ -134,6 +134,7 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
+    <ClCompile Include="Bouton.cpp" />
     <ClCompile Include="FenetreJeu.cpp" />
     <ClCompile Include="Jeu.cpp" />
     <ClCompile Include="Joueur.cpp" />
@@ -142,6 +143,7 @@
     <ClCompile Include="Carte.cpp" />
   </ItemGroup>
   <ItemGroup>
+    <ClInclude Include="Bouton.h" />
     <ClInclude Include="Carte.h" />
     <ClInclude Include="FenetreJeu.h" />
     <ClInclude Include="Jeu.h" />
@@ -204,6 +206,9 @@
     <Image Include="..\Bataille\assets\cards\queen_of_diamonds.png" />
     <Image Include="..\Bataille\assets\cards\queen_of_hearts.png" />
     <Image Include="..\Bataille\assets\cards\queen_of_spades.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include=".gitignore" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">

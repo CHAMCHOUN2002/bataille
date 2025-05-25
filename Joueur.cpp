@@ -1,7 +1,14 @@
 #include "Joueur.h"
+#include <iostream>
 
 Joueur::Joueur(const std::string& nom) : nom(nom) {}
-
+void Joueur::afficherCartes() const {
+    std::cout << nom << " a les cartes : ";
+    for (const auto& carte : cartes) {
+        std::cout << carte.getNom() << " ";
+    }
+    std::cout << std::endl;
+}
 void Joueur::ajouterCarte(const Carte& carte) {
     cartes.push_back(carte);
 }

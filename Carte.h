@@ -14,6 +14,8 @@ private:
     sf::Sprite sprite;
 
 public:
+    Carte() : nom(""), valeur(0), cheminImage("") {}
+
     Carte(const std::string& nom, int valeur, const std::string& cheminImage);
 
     int getValeur() const;

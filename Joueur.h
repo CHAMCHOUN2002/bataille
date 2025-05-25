@@ -17,6 +17,9 @@ public:
     bool aDesCartes() const;
     int nombreCartes() const;
     const std::string& getNom() const;
+    // Joueur.h
+    void afficherCartes() const;
+
 };
 
 #endif
